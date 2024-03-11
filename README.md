@@ -10,7 +10,7 @@ What is Python?
 
 Features of Python
 1. Easy to understand = Less development time
-2 .Free and open source
+2. Free and open source
 3. High level language
 4. Portable Works on Linux / Windows / Mac.
 
