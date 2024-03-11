@@ -5,6 +5,6 @@
 # \" \n \t \' (print this as an output)
 
 print("this is \\\\ double backslash")
-print("this is /\/\/\/\/\ mountain")
+print("this is /\\/\\/\\/\\/\\ mountain")
 print("he is \t awesome")
-print("\" \\n \\t \\'")
+print("\\\" \\n \\t \\\'")
