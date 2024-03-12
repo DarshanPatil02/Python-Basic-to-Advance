@@ -72,5 +72,38 @@ for i in range(0,len(name)):
                 print(f"{name[i]}:{name.count(name[i])}")
 
 # Break and Continue keyword
-        
+
+# 1 to 10 print
+for i in range(1,11):
+        if i==5:
+                break
+        print(i)
          
+# Continue
+# 1 to 10 print but not 5
+
+for i in range(1,11):
+        if i==5:
+                continue
+        print(i)
+
+# Step in range
+# Synatx --> range(start,end,step)
+        
+for i in range(1,100,2):
+        print(i)
+
+for i in range(20,0,-2):
+        print(i)
+
+
+# Loops is string
+ for i in "Darshan":
+        print(i)
+
+# Sum of number digits
+total=0
+number = input("Enter Number here:")
+for i in number:
+        total+=int(i)
+print(total)
