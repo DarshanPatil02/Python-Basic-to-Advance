@@ -28,3 +28,19 @@ guitarists1,guitarists2,guitarists3 = (guitarists)
 print(guitarists1, type(guitarists1))
 print(guitarists2, type(guitarists2))
 print(guitarists3, type(guitarists3))
+
+# list inside tuple
+favorites = ('southern magnolia', ['Tokyo Ghoul Theme','landscape'])
+print(favorites)
+favorites[1].pop()
+print(favorites)
+favorites[1].append("John")
+print(favorites)
+
+# some function that you can use with tuples
+# min(), max(), sum()
+mixed = (1,2,3,4.0)
+print(mixed)
+print(min(mixed))
+print(max(mixed))
+print(sum(mixed))
