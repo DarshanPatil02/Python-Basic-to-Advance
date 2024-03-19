@@ -23,3 +23,17 @@ print(all([nums%2==0 for nums in number2]))
 # any function is used to check any values in list are True or not 
 print(any([nums%2==0 for nums in number1]))
 print(any([nums%2==0 for nums in number2]))
+
+def my_sum(*args):
+    # args = []
+    if all([(type(arg)==float or type(arg)==int) for arg in args]):
+        total=0
+        for num in args:
+            total+=num
+        return total
+    else:
+        return "Wrong Input"
+    
+print(my_sum(1,2,3,4,8.9,"Darshan",["Darshan"]))
+print(my_sum(1,2,3,4,8.9))
+
