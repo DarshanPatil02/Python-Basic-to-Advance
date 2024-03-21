@@ -4,9 +4,9 @@
 
 def even_num(n):
     for i in range(2,n+1,2):
-        yield i
+        yield i # Syntax of generator
 
-even_numbers = even_num(10)
+even_numbers = even_num(10) # 
 for i in even_numbers:
     print(i)
 
