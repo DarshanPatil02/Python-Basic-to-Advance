@@ -12,3 +12,7 @@ for i in even_numbers:
 
 for i in even_numbers:
     print(i)
+
+for i in even_numbers:
+    print(i)
+
