@@ -5,7 +5,7 @@
 # How to create our object
 
 class Person:
-    def __init__(self, first_name,last_name,age):  # __init__ is constructor and 
+    def __init__(self, first_name,last_name,age):  # __init__ is method to constructor class and 
                                                    # it is syntax and self is call and it is must to call object
                                                    # self represents object
         #instance variable
