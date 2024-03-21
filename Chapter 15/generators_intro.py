@@ -18,3 +18,30 @@ In Python, a generator is a function that returns an iterator that produces a se
 Generators are useful when we want to produce a large sequence of values, but we don't want to store all of them in memory at once.
 """
 
+# Create your first generator with generator function
+# We can generate generrators using generator function or generator comprehension
+
+# Generator function
+def num(n):
+    for i in range(1,n+1):
+        yield i
+
+numbers = num(10)    
+
+for i in numbers: # In generators as we know it generates number at ones and return it at once only
+    print(i)
+
+for i in numbers: # If we again run loop there will be blank output
+    print(i)
+
+# Generator Comprehension
+
+square = (num**2 for num in range(1,11)) # instead of square brackets in list comprehension use parenthesis '()'
+print(square)
+for i in square:
+    print(i)
+
+square = (num**2 for num in range(1,11)) # instead of square brackets in list comprehension use parenthesis '()'
+print(next(square))
+print(next(square))
+print(next(square))
