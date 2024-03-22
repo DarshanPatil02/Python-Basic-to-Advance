@@ -1,5 +1,5 @@
 # Exception handling
-# try except else finally
+# try except 
 
 age1 = int(input("Enter your age: "))
 if age1>=18:
