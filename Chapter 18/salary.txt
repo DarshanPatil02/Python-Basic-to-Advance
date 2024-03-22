@@ -1,0 +1,4 @@
+Darshan,100000
+Mohit,50000
+Aditya,200000
+Nitish,35000
