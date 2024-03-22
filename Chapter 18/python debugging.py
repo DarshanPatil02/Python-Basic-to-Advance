@@ -17,6 +17,11 @@ import pdb # import pdb module
 pdb.set_trace() # it is used to track error
 # It works as line by line means it runs 1st line after that enter l to check which line is running. 
 # Then enter n for next line. Repeate steps till error found
+# Command used in debugging 
+# 1)l = to detect line
+# 2)n = to move next line
+# 3)q = to quit from debugging
+# 4)c = continue without debugging
 name = input("Please enter your name: ")
 age = input("Please enter your age: ")
 print(f"Hello {name} your are is {age}")
@@ -30,3 +35,4 @@ age = int(input("Please enter your age: "))
 print(f"Hello {name} your are is {age}")
 new_age = age+5 
 print(f"Hello {name} your are will be {new_age} after 5 years")
+
