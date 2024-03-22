@@ -1,0 +1,3 @@
+Here we are using r+ functionarning how to write in file using python
+Hello friend!
+ Welcome to my github repo
