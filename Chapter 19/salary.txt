@@ -1,0 +1,6 @@
+first_name,last_name,salary
+Darshan,Patil,210000
+Rohit,Sharma,150000
+Surya,Yadav,120000
+Deepak,Chahar,80000
+Tilak,Verma,90000
