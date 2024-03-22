@@ -75,5 +75,5 @@ class Goat(Animal):
 doggy = Dog("bonny",'pug')
 print(doggy.sound())
 
-goat1 = Goat("Lily","goat_breed")
+goat1 = Goat("Lambchop","kiko goat")
 print(goat1.sound())
