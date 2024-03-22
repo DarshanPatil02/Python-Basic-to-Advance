@@ -1,4 +1,19 @@
+Output of 1st Problem 
+ 
 Darshan's Salary is 100000
 Mohit's Salary is 50000
 Aditya's Salary is 200000
 Nitish's Salary is 35000
+ 
+ Output of 2nd Problem 
+ 
+www.facebook.com
+www.youtube.com
+www.twitter.com
+
+ Ouput of 2nd problem with better solution i.e., it can find two links in one line 
+ 
+www.facebook.com
+www.linkdin.com
+www.youtube.com
+www.twitter.com
