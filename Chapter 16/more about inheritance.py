@@ -62,6 +62,9 @@ print(f"This is Flagship Phone {FlagshipPhone1.full_name()} and price is {Flagsh
 print(FlagshipPhone1.full_name())
 # Every class has method resolution
 print(help(FlagshipPhone1)) # In output we can see method resolution which means  that what is flow of our code
+# Different techniques of calling MRO   
+print(FlagshipPhone.mro)
+print(FlagshipPhone.__mro__)
 """
 Method resolution order:
  |      FlagshipPhone
