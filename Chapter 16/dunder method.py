@@ -11,7 +11,7 @@ class Phone: # base class/ parent class
     def __init__(self,brand,model_name,price):
         self.brand = brand
         self.model_name = model_name
-        self._price = price 
+        self.price = price 
     
     def phone_name(self):
         return f"{self.brand} {self.model_name}"
@@ -36,11 +36,11 @@ class Phone: # base class/ parent class
     # 1) str and 2) repr(representation)
     # You can put any dender method str is used by normal user while repr is used by python developer
 
-    def __str__(self) -> str:
-        return f"{self.brand} {self.model_name} and price is {self._price}"
+    def __str__(self):
+        return f"{self.brand} {self.model_name} and price is {self.price}"
     
-    def __repr__(self) -> str:
-        return f"Phone ('{self.brand}', '{self.model_name}', '{self._price}')"
+    def __repr__(self):
+        return f"Phone ('{self.brand}', '{self.model_name}', '{self.price}')"
     
     def __len__(self):
         return(len(self.phone_name))
@@ -50,7 +50,7 @@ class Phone: # base class/ parent class
         return self.price+other.price
 
 my_phone1 = Phone("Nokia",2.0, 1500) # by default it will call first which is str
-print(my_phone.__repr__()) 
+print(my_phone1) 
 my_phone2 = Phone("Nokia",5.0, 2500) # by default it will call first which is str
 
 print(my_phone1+my_phone2)
