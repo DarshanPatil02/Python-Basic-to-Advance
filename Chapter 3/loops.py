@@ -98,7 +98,7 @@ for i in range(20,0,-2):
 
 
 # Loops is string
- for i in "Darshan":
+for i in "Darshan":
         print(i)
 
 # Sum of number digits

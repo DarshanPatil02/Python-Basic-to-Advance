@@ -36,7 +36,7 @@ for i in range(1,10):
     print(i)
 
 # for with break
- for i in range(0,11):
+for i in range(0,11):
     if i==5:
         break
     print(i)
